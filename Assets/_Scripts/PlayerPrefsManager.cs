@@ -50,7 +50,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
 	public void setSoundLevel(float level)
 	{
-		PlayerPrefs.SetFloat (SOUND_VOLUME);
+		PlayerPrefs.SetFloat (level);
 	}
 
 	public float getSoundLevel()
